@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#07543f">
+<title>Kabir555 Gastronexcke | Commercial Kitchen Equipment</title>
+<meta name="description" content="Commercial kitchen equipment, hotel kitchen setup, restaurant equipment, bakery machines, cloud kitchen and kitchen modification. Contact Kabir555 Gastronexcke for quotations.">
+<style>
+:root{--green:#07543f;--deep:#063c30;--gold:#c89531;--cream:#fffaf0;--ink:#19382f}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:var(--ink)}
+a{color:inherit;text-decoration:none}
+.top{background:var(--deep);color:white;padding:9px 4%;font-size:12px;text-align:center}
+header{background:#fff;padding:15px 4%;display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.logo{font-size:clamp(20px,4vw,32px);font-weight:900;color:var(--green);letter-spacing:-1px}
+.logo span{color:var(--gold)}
+.tagline{font-size:11px;letter-spacing:2px;margin-top:5px}
+.contact-head{font-size:13px;line-height:1.8}
+.contact-head a{font-weight:bold;color:var(--green)}
+nav{background:var(--green);color:white;display:flex;gap:20px;align-items:center;padding:14px 4%;overflow-x:auto;white-space:nowrap;font-size:13px}
+nav a:hover{color:#ffd777}
+.searchbar{padding:16px 4%;background:#fff;display:flex;gap:8px}
+.searchbar input{flex:1;min-width:0;padding:13px;border:1px solid #ddd;border-radius:8px;font-size:15px}
+button,.btn{border:0;cursor:pointer;background:var(--gold);color:white;padding:13px 18px;border-radius:7px;font-weight:bold;display:inline-block}
+.hero{min-height:410px;display:flex;align-items:center;padding:45px 5%;background:linear-gradient(90deg,rgba(255,250,240,.98),rgba(255,250,240,.86),rgba(255,250,240,.12)),url('https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1800&q=85') center/cover}
+.hero-content{max-width:580px}
+.eyebrow{color:#9a6a12;font-weight:bold;text-transform:uppercase;letter-spacing:2px;font-size:12px}
+h1{font-size:clamp(34px,5vw,57px);line-height:1.08;margin:12px 0;color:var(--deep)}
+.hero p{line-height:1.7;font-size:17px}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+.btn.green{background:var(--green)}
+section{padding:42px 4%}
+.section-title{text-align:center;margin:0 0 8px;font-size:clamp(24px,4vw,35px);color:var(--deep)}
+.subtitle{text-align:center;color:#68766e;margin:0 auto 26px;max-width:700px;line-height:1.6}
+.benefits{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:22px 4%;background:#f1e7d0}
+.benefit{text-align:center;font-size:13px;font-weight:bold}
+.benefit b{display:block;font-size:24px;margin-bottom:7px}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:17px}
+.card{background:white;border:1px solid #e8dfce;border-radius:12px;overflow:hidden;box-shadow:0 4px 14px #46371a0b;transition:transform .2s}
+.card:hover{transform:translateY(-4px)}
+.card img{width:100%;height:155px;object-fit:cover;display:block;background:#eee}
+.card-body{padding:13px}
+.card h3{font-size:15px;line-height:1.35;margin:0 0 8px}
+.card p{font-size:12px;line-height:1.5;color:#65716b;margin:0 0 12px}
+.small-btn{display:inline-block;font-size:12px;color:var(--green);font-weight:bold;border-bottom:1px solid var(--gold);padding-bottom:3px}
+.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.feature{padding:23px;background:white;border-radius:12px;border:1px solid #e8dfce}
+.feature .symbol{font-size:29px}
+.feature h3{margin:12px 0 7px}
+.feature p{font-size:14px;line-height:1.6;color:#65716b}
+.cta{margin:10px 4% 38px;border-radius:16px;background:linear-gradient(120deg,#7d1f18,#a23c20,#df9a35);color:white;padding:35px 5%;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.cta h2{font-size:clamp(25px,4vw,38px);margin:0 0 10px}
+.contact-section{background:#e9f0e7}
+.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.contact-card{background:white;padding:22px;border-radius:12px;line-height:1.8;overflow-wrap:anywhere}
+.contact-card h3{color:var(--green)}
+footer{background:var(--deep);color:white;padding:30px 4%;text-align:center;font-size:13px;line-height:1.8}
+footer a{color:#f7d58b}
+.whatsapp-float{position:fixed;right:16px;bottom:18px;background:#168447;color:white;border-radius:50px;padding:14px 17px;font-weight:bold;box-shadow:0 4px 18px #0003;z-index:10}
+.empty{grid-column:1/-1;text-align:center;padding:25px;color:#65716b}
+@media(max-width:800px){
+ .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+ .card img{height:130px}
+ .benefits{grid-template-columns:repeat(2,1fr);gap:20px}
+ .feature-grid,.contact-grid{grid-template-columns:1fr}
+ .hero{min-height:390px;padding:35px 6%;background-position:center}
+ nav{gap:16px}
+}
+@media(min-width:1200px){.grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+</style>
+</head>
+<body>
+<div class="top">Professional Commercial Kitchen Solutions • Hotels • Restaurants • Bakeries • Catering</div>
+
+<header>
+ <div>
+  <div class="logo">KABIR<span>555</span><br>GASTRONEXCKE</div>
+  <div class="tagline">COMMERCIAL KITCHEN EQUIPMENT</div>
+ </div>
+ <div class="contact-head">
+  ☎ <a href="tel:+919893022696">+91 98930 22696</a><br>
+  ✉ <a href="mailto:on555.online@gmail.com">on555.online@gmail.com</a>
+ </div>
+</header>
+
+<nav>
+ <a href="#home">Home</a>
+ <a href="#categories">All Categories</a>
+ <a href="#services">Our Services</a>
+ <a href="#projects">Kitchen Projects</a>
+ <a href="#contact">Contact Us</a>
+</nav>
+
+<div class="searchbar">
+ <input id="search" type="search" placeholder="Search kitchen equipment or category..." aria-label="Search products">
+ <button onclick="searchItems()">Search</button>
+</div>
+
+<main>
+<div class="hero" id="home">
+ <div class="hero-content">
+  <div class="eyebrow">Your Kitchen. Our Expertise.</div>
+  <h1>Complete Commercial Kitchen Solutions</h1>
+  <p>Equipment and setup solutions for hotels, restaurants, cafés, bakeries, bars, dhabas, catering businesses and cloud kitchens.</p>
+  <div class="actions">
+   <a class="btn green" href="https://wa.me/919893022696?text=Hello%2C%20I%20need%20a%20commercial%20kitchen%20equipment%20quotation.">Get WhatsApp Quote</a>
+   <a class="btn" href="#categories">Explore Categories →</a>
+  </div>
+ </div>
+</div>
+
+<div class="benefits">
+ <div class="benefit"><b>✦</b>Equipment Selection</div>
+ <div class="benefit"><b>⚙</b>Setup Planning</div>
+ <div class="benefit"><b>⇢</b>Delivery Enquiries</div>
+ <div class="benefit"><b>✓</b>Customer Support</div>
+</div>
+
+<section id="categories">
+ <h2 class="section-title">Explore Our Equipment Categories</h2>
+ <p class="subtitle">Find equipment for your business. Ask us about product specifications, availability, prices and custom requirements.</p>
+ <div class="grid" id="categoryGrid"></div>
+</section>
+
+<section id="services" style="background:#f2eadb">
+ <h2 class="section-title">Complete Kitchen Services</h2>
+ <p class="subtitle">From selecting individual machines to planning a complete commercial kitchen.</p>
+ <div class="feature-grid">
+  <article class="feature">
+   <div class="symbol">🏗️</div>
+   <h3>Cloud Kitchen Setup</h3>
+   <p>Space planning, compact cooking lines, preparation stations, storage and equipment selection for delivery-focused kitchens.</p>
+   <a class="small-btn" href="https://wa.me/919893022696?text=I%20need%20a%20cloud%20kitchen%20setup%20quotation.">Enquire about setup →</a>
+  </article>
+  <article class="feature">
+   <div class="symbol">🛠️</div>
+   <h3>Kitchen Modification & Renovation</h3>
+   <p>Improve an existing kitchen layout, change equipment placement, plan stainless-steel counters and discuss ventilation upgrades.</p>
+   <a class="small-btn" href="https://wa.me/919893022696?text=I%20need%20commercial%20kitchen%20modification.">Discuss modification →</a>
+  </article>
+  <article class="feature">
+   <div class="symbol">🍽️</div>
+   <h3>Complete Kitchen Setup</h3>
+   <p>Discuss equipment selection and layout requirements for a new hotel, restaurant, café, bakery or catering kitchen.</p>
+   <a class="small-btn" href="https://wa.me/919893022696?text=I%20need%20a%20complete%20commercial%20kitchen%20setup.">Plan your kitchen →</a>
+  </article>
+ </div>
+</section>
+
+<section id="projects">
+ <h2 class="section-title">Plan Your Kitchen Project</h2>
+ <p class="subtitle">Tell us your business type, available space, menu and equipment requirements so we can discuss a suitable solution.</p>
+ <div style="text-align:center">
+  <a class="btn green" href="https://wa.me/919893022696?text=Hello%2C%20I%20want%20to%20discuss%20a%20commercial%20kitchen%20project.">Discuss Your Project on WhatsApp</a>
+ </div>
+</section>
+
+<div class="cta">
+ <div>
+  <h2>Build a Better Commercial Kitchen</h2>
+  <p>Tell us what you need. Request product details or a quotation.</p>
+ </div>
+ <a class="btn" href="https://wa.me/919893022696?text=Hello%2C%20please%20help%20me%20with%20commercial%20kitchen%20equipment.">Get a Free Enquiry →</a>
+</div>
+
+<section class="contact-section" id="contact">
+ <h2 class="section-title">Contact Kabir555 Gastronexcke</h2>
+ <p class="subtitle">Contact us for equipment enquiries, kitchen setup and modification requirements.</p>
+ <div class="contact-grid">
+  <div class="contact-card">
+   <h3>📱 Call Us</h3>
+   <a href="tel:+919893022696">+91 98930 22696</a><br>
+   <a href="tel:+919936908369">+91 99369 08369</a>
+  </div>
+  <div class="contact-card">
+   <h3>✉ Email Us</h3>
+   <a href="mailto:on555.online@gmail.com">on555.online@gmail.com</a>
+  </div>
+  <div class="contact-card">
+   <h3>💬 WhatsApp Enquiry</h3>
+   <p>Send your equipment list or kitchen requirements.</p>
+   <a class="btn green" href="https://wa.me/919893022696?text=Hello%2C%20I%20am%20enquiring%20about%20commercial%20kitchen%20equipment.">Chat on WhatsApp</a>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer>
+ <strong>KABIR555 GASTRONEXCKE</strong><br>
+ Professional Commercial Kitchen Equipment<br>
+ <a href="mailto:on555.online@gmail.com">on555.online@gmail.com</a> |
+ <a href="tel:+919893022696">+91 98930 22696</a><br>
+ © <span id="year"></span> Kabir555 Gastronexcke. All rights reserved.
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/919893022696?text=Hello%2C%20I%20need%20commercial%20kitchen%20equipment.">WhatsApp</a>
+
+<script>
+const categories = [
+["Hotel Kitchen Equipment","Hotel cooking lines, refrigeration and workstations.","photo-1556911220-e15b29be8c8f"],
+["Restaurant Kitchen Equipment","Cooking ranges, fryers, grills and preparation equipment.","photo-1556911261-6bd341186b2f"],
+["Catering Equipment","Bulk cooking, serving counters, buffet and transport equipment.","photo-1555939594-58d7cb561ad1"],
+["Dhaba Equipment","Heavy-duty stoves, tawa, tandoor and Indian cooking equipment.","photo-1556911220-bff31c812dba"],
+["Bakery Equipment","Ovens, mixers, dough preparation and baking machines.","photo-1509440159596-0249088772ff"],
+["Bar Equipment","Bar stations, beverage tools, ice equipment and glass washing.","photo-1514362545857-3bc16c4c7d1b"],
+["Café Equipment","Coffee machines, grinders, sandwich grills and café essentials.","photo-1495474472287-4d71bcdd2085"],
+["Fast Food Equipment","Burger, fries, pizza, momo and snack-making equipment.","photo-1571091718767-18b5b1457add"],
+["Sweet Shop & Halwai Equipment","Equipment for sweets, frying, mixing and display.","photo-1551024506-0bccd828d307"],
+["Meat Processing Equipment","Meat mincers, keema machines, slicers and preparation tools.","photo-1607623814075-e51df1bdc82f"],
+["Tandoor & Indian Cooking","Tandoors, dosa plates, steamers and Indian cooking lines.","photo-1589302168068-964664d93dc0"],
+["Pizza & Italian Kitchen","Pizza ovens, dough mixers and preparation stations.","photo-1579751626657-72bc17010498"],
+["Juice & Beverage Equipment","Juicers, blenders, dispensers and beverage preparation.","photo-1544145945-f90425340c7e"],
+["Ice Cream & Dessert Equipment","Freezers, dessert displays and ice cream equipment.","photo-1563805042-7684c019e1cb"],
+["Commercial Refrigeration","Chillers, deep freezers and display refrigerators.","photo-1581091226825-a6a2a5aee158"],
+["Food Preparation Equipment","Cutters, slicers, mixers and food processors.","photo-1547592180-85f173990554"],
+["Washing & Cleaning Equipment","Dishwashing, sinks and commercial cleaning stations.","photo-1556911220-e15b29be8c8f"],
+["Stainless Steel Fabrication","Custom work tables, sinks, racks and exhaust hoods.","photo-1556912172-45b7abe8b7e1"],
+["Kitchen Tools & Utensils","Knives, pans, utensils, containers and daily kitchen tools.","photo-1556911220-e15b29be8c8f"],
+["Food Display & Serving Equipment","Buffet stations, hot cases and serving counters.","photo-1555939594-58d7cb561ad1"],
+["Commercial Laundry Equipment","Laundry equipment for hospitality businesses.","photo-1517677208171-0bc6725a3e60"],
+["Cloud Kitchen Equipment","Compact kitchen equipment and delivery-kitchen planning.","photo-1556911220-e15b29be8c8f"],
+["Kitchen Modification & Renovation","Kitchen redesign, upgrades and equipment relocation.","photo-1556912172-45b7abe8b7e1"],
+["Complete Kitchen Setup","Discuss an equipment plan for your complete kitchen.","photo-1556911261-6bd341186b2f"]
+];
+
+const grid = document.getElementById("categoryGrid");
+
+function renderCategories(list){
+ grid.innerHTML="";
+ if(!list.length){
+  grid.innerHTML='<div class="empty">No matching categories found. Try another search.</div>';
+  return;
+ }
+ list.forEach(([name,description,image])=>{
+  const card=document.createElement("article");
+  card.className="card";
+  const img=document.createElement("img");
+  img.src="https://images.unsplash.com/"+image+"?auto=format&fit=crop&w=700&q=80";
+  img.alt=name;
+  img.loading="lazy";
+  img.onerror=()=>{img.style.display="none"};
+  const body=document.createElement("div");
+  body.className="card-body";
+  const title=document.createElement("h3");
+  title.textContent=name;
+  const p=document.createElement("p");
+  p.textContent=description;
+  const link=document.createElement("a");
+  link.className="small-btn";
+  link.textContent="Request a Quote →";
+  link.href="https://wa.me/919893022696?text="+encodeURIComponent("Hello, I need details and a quotation for "+name+".");
+  body.append(title,p,link);
+  card.append(img,body);
+  grid.append(card);
+ });
+}
+function searchItems(){
+ const term=document.getElementById("search").value.trim().toLowerCase();
+ renderCategories(categories.filter(c=>c.join(" ").toLowerCase().includes(term)));
+ document.getElementById("categories").scrollIntoView({behavior:"smooth"});
+}
+document.getElementById("search").addEventListener("keydown",e=>{
+ if(e.key==="Enter")searchItems();
+});
+document.getElementById("year").textContent=new Date().getFullYear();
+renderCategories(categories);
+</script>
+</body>
+</html>
